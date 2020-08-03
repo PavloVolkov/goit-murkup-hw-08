@@ -15,16 +15,13 @@
         <div class="container menu-wrapper-container">
             <div class="menu-wrapper">
                 <a class="logo" href=""><span class="logo-blue">Web</span><span class="logo-black">Studio</span></a>
-                <div class="menu-icon-wrapper">
-                    <button class="dropdown-menu-button">
-                        <svg class="menu-icon">
-                            <use href="./image/sprite/symbol-defs.svg#icon-menu"></use>
-                        </svg>
-                    </button>
-                </div>
+                <label class="menu-dropdown-ico">
+                    <input class="checkbox-dropdown-top" type="checkbox" value="" data-menu-button>
+                    <span class="checkbox-span-top"></span>
+                </label>
             </div>
         </div>
-        <div class="container dropdown-container is-open">
+        <div class="container dropdown-container is-open" data-menu>
             <div class="dropdown ">
                 <nav class="navigation">
                     <ul class="navigation-list">
@@ -59,8 +56,7 @@
                 </address>
             </div>
         </div>
-    </header> -->
-    <div class="line"></div>
+    </header>
     <main>
         <div class="container">
             <section class="portfolio">
@@ -387,6 +383,7 @@
             </ul>
         </div>
     </footer>
+    <script src="./js/dropdown.js"></script>
 </body>
 
 </html>
