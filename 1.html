@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* &-checkbox {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.03em;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        &-policy-checkbox {
+            -webkit-appearance: none;
+        }
+
+        &-policy-checkbox~&-checkbox::before {
+            content: " ";
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            box-shadow: 0 0 0 0.1em $black;
+            border-radius: 3px;
+            margin-right: 8px;
+            background-color: $white;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        &-policy-checkbox:checked~&-checkbox::before {
+            background-image: url(../image/Vector.svg);
+            background-size: 16px;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 0 0 0.1em $accent-color;
+            background-color: $accent-color;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        } */
+        *::before {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-dropdown-ico {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 40px;
+            height: 40px;
+
+        }
+
+        .checkbox-dropdown-top {
+            margin: 0;
+            padding: 0;
+            -webkit-appearance: none;
+        }
+
+        .checkbox-span-top {
+            display: block;
+            width: 40px;
+            height: 40px;
+        }
+
+        .checkbox-span-top::before {
+            content: " ";
+            display: flex;
+            width: 40px;
+            height: 40px;
+            background-image: url(./image/menu/menu_40px.png);
+            background-size: contain;
+        }
+
+        .checkbox-span-top:hover::before {
+            content: " ";
+            display: flex;
+            width: 40px;
+            height: 40px;
+            background-image: url(./image/menu/menu_40pxblue.png);
+            background-size: contain;
+        }
+
+        .checkbox-dropdown-top:checked~.checkbox-span-top::before {
+            content: " ";
+            display: flex;
+            width: 40px;
+            height: 40px;
+            /* background-color: cornflowerblue; */
+            background-image: url(./image/menu/close_40px.png);
+            background-size: contain;
+        }
+
+        .checkbox-dropdown-top:checked~.checkbox-span-top:hover::before {
+            content: " ";
+            display: flex;
+            width: 40px;
+            height: 40px;
+            /* background-color: cornflowerblue; */
+            background-image: url(./image/menu/close_40pxblue.png);
+            background-size: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <label class="menu-dropdown-ico">
+        <input class="checkbox-dropdown-top" type="checkbox" value="">
+        <span class="checkbox-span-top"></span>
+
+    </label>
+
+    </div>
+
+</body>
+
+</html>

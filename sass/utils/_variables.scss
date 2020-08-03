@@ -1,0 +1,17 @@
+$text-color: #757575;
+$text-black: rgba(0, 0, 0, 0.8);
+$title-color: #212121;
+$accent-color: #2196f3;
+$background-grey: #afb1b8;
+$background-white: #f5f4fa;
+$black: #2f303a;
+$grey: #c4c4c4;
+$white: #ffffff;
+
+$tr250: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+%centr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,59 @@
+.menu-dropdown-ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.checkbox-dropdown-top {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+.checkbox-span-top {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.checkbox-span-top::before {
+  content: " ";
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-image: url(../../image/menu/menu_40px.png);
+  background-size: contain;
+}
+
+.checkbox-span-top:hover::before {
+  content: " ";
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-image: url(../../image/menu/menu_40pxblue.png);
+  background-size: contain;
+}
+
+.checkbox-dropdown-top:checked ~ .checkbox-span-top::before {
+  content: " ";
+  display: flex;
+  width: 40px;
+  height: 40px;
+  /* background-color: cornflowerblue; */
+  background-image: url(../../image/menu/close_40px.png);
+  background-size: contain;
+}
+
+.checkbox-dropdown-top:checked ~ .checkbox-span-top:hover::before {
+  content: " ";
+  display: flex;
+  width: 40px;
+  height: 40px;
+  /* background-color: cornflowerblue; */
+  background-image: url(../../image/menu/close_40pxblue.png);
+  background-size: contain;
+}
